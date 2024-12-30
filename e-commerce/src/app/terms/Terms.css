@@ -1,0 +1,107 @@
+/**
+ * Terms.css
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #1c1c1c; /* Updated to match home page color */
+    color: #ffffff; /* White text color */
+}
+
+.max-width-container {
+    max-width: 800px; /* Flexible width for text containers */
+    margin: auto; /* Center alignment */
+    padding: 0 16px; /* Padding for smaller screens */
+}
+    
+.card {
+    background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background for cards */
+    border: 1px solid rgba(255, 255, 255, 0.2); /* Light border for cards */
+    border-radius: 8px; /* Rounded corners */
+    padding: 16px; /* Padding for cards */
+    margin-bottom: 20px; /* Margin between cards */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+date {
+    background-color: #4ECCA3; /* Highlight color */
+    color: white; /* Text color */
+    padding: 10px; /* Padding */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 20px; /* Margin below the effective date */
+}
+
+h1 {
+    font-size: 28px; /* Main header */
+    line-height: 1.5;
+    color: #4ECCA3; /* Accent color for main header */
+    padding-top: 40px;
+}
+
+h2 {
+    font-size: 24px; /* Subheader */
+    line-height: 1.4;
+    color: #4ECCA3; /* Accent color for subheaders */
+}
+
+p {
+    line-height: 1.6; /* Increased line spacing for readability */
+}
+
+ul {
+    margin-left: 20px; /* Indentation for list items */
+}
+
+.section-icon {
+    margin-right: 8px; /* Space between icon and text */
+    vertical-align: middle; /* Align icon with text */
+}
+
+.table-of-contents {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 16px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.table-of-contents h2 {
+    font-size: 24px;
+    color: #4ECCA3;
+}
+
+.table-of-contents ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.table-of-contents li {
+    margin-bottom: 8px;
+}
+
+.table-of-contents a {
+    color: #4ECCA3;
+    text-decoration: none;
+}
+
+header {
+    margin-bottom: 80px;
+}
+
+.sticky-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #4ECCA3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.sticky-button:hover {
+    background-color: #3DAF8A;
+}
